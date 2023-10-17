@@ -1,0 +1,54 @@
+@font-face {
+    font-family: popin;
+    src: url(/assets/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: popinl;
+    src: url(/assets/font/Poppins-Light.ttf);
+}
+:root{
+    --primary-100:#FF00FF;
+    --primary-200:#ff63ff;
+    --primary-300:#ffd6ff;
+    --accent-100:#00FFFF;
+    --accent-200:#00999b;
+    --text-100:#FFFFFF;
+    --text-200:#e0e0e0;
+    --bg-100:#000000;
+    --bg-200:#161616;
+    --bg-300:#2c2c2c;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(var(--bg-200),var(--bg-100));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+    color: var(--text-200);
+    font-family: popin;
+    font-weight: lighter;
+}
+.container{
+    background-color: var(--bg-300);
+    padding: 10px 0;
+}
+.marker{
+    width: 500px;
+    height: 50px;
+    margin: 10px auto;
+}
+.one{
+    background-color: var(--primary-300);
+}
+.two{
+    background-color: var(--primary-200);
+}
+.three{
+    background-color: var(--primary-100);
+}
+
